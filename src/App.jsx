@@ -1,4 +1,5 @@
-import React, { useState } from 'react'
+import React, { useState , useEffect } from 'react'
+import { initializeGA, trackPageView } from "./utils/analytics";
 import "./app.scss"
 import cute from "./assets/images/cute.gif"
 import image1 from "./assets/images/image1.gif";
@@ -16,6 +17,11 @@ const App = () => {
   const [noOfRejections , setNoOfRejections] = useState(0);
   const [accepted , setAccepted] = useState(false);
   const [image , setImage] = useState(cute);
+
+  useEffect(() => {
+    initializeGA();
+    trackPageView();
+  },[]);
 
   const noTexts = [
     "No" ,
