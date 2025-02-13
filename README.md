@@ -6,7 +6,7 @@ A fun and interactive Valentine's Day proposal app built with React! This playfu
 
 ## 🎥 Demo
 
-Insert gif or link to demo
+[App](https://vivekannad.github.io/ask-for-valentine/)
 
 
 ## 📌 Features
@@ -31,7 +31,7 @@ Insert gif or link to demo
 
 1. Clone the repository
 ```
-    git clone https://github.com/Vivekannad/valentine-app.git
+    git clone https://github.com/Vivekannad/ask-for-valentine.git
     cd ask-for-valentine
 ```
 2. Install dependencies
@@ -46,18 +46,20 @@ Insert gif or link to demo
 
 4. Open in browser
 ```
-    http://localhost:5173
+    https://localhost:5173
 ```
     
 ## 📂 Folder Structure
 
 📦 ask-for-valentine
-├── 📂 src
-│   ├── 📂 assets/images (GIFs    and images used)
-│   ├── 📜 App.jsx (Main React component)
-│   ├── 📜 app.scss (Styling with SCSS)
-│   ├── 📜 main.jsx (Entry point)
-└── 📜 package.json (Project dependencies)
+
+*   src/
+    *   assets/images  ( GIFs and images used)
+    *   App.jsx       (Main React component)
+    *   app.scss      (Styling with SCSS)
+    *   main.jsx       (Entry point)
+*   package.json       (Project dependencies)
+
 
 ## 🎨 Styling Details
 
@@ -68,9 +70,11 @@ Insert gif or link to demo
 - The No button changes the displayed text and image dynamically.
 
 - The background color is set to beige for a soft romantic feel. 🥰
+
 ## 📸 Preview
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](<Screenshot 2025-02-13 151754.png>)
+![App Screenshot](<Screenshot 2025-02-13 151804.png>)
 
 
 ## 📜License

@@ -22,7 +22,7 @@ const App = () => {
     "Are You Sure?",
     "What If I asked really nicely?",
     "Pretty please" , 
-    "With a chocolate rice cake on top" , 
+    "With a hot nutella waffle!" , 
     "What about a matcha frostie" , 
     "PLEASE POOKIE" , 
     "But :))" , 
