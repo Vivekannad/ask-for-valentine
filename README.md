@@ -1,8 +1,81 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 💖 Valentine Proposal App
 
-Currently, two official plugins are available:
+A fun and interactive Valentine's Day proposal app built with React! This playful web app dynamically changes text and images based on the number of rejections, making it a cute and engaging way to ask someone to be your Valentine. 💕.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## 🎥 Demo
+
+Insert gif or link to demo
+
+
+## 📌 Features
+
+- 🖼 Dynamic Image Changes - The image updates based on the number of rejections.
+
+- 📜 Funny & Sweet Responses - Each rejection prompts a new playful response.
+
+- 🎨 CSS Animations - The "Yes" button grows in size and bounces continuously.
+
+- 🖱 Interactive Buttons - "Yes" leads to an acceptance message, while "No" keeps the game going.
+
+
+## 🛠 Tech Stack
+
+- React (useState for state management)
+
+- SCSS (for styling and animations)
+
+
+## 🚀 Installation and Setup
+
+1. Clone the repository
+```
+    git clone https://github.com/Vivekannad/valentine-app.git
+    cd ask-for-valentine
+```
+2. Install dependencies
+```
+    npm install
+```
+
+3. Run the development server
+```
+    npm run dev
+```
+
+4. Open in browser
+```
+    http://localhost:5173
+```
+    
+## 📂 Folder Structure
+
+📦 ask-for-valentine
+├── 📂 src
+│   ├── 📂 assets/images (GIFs    and images used)
+│   ├── 📜 App.jsx (Main React component)
+│   ├── 📜 app.scss (Styling with SCSS)
+│   ├── 📜 main.jsx (Entry point)
+└── 📜 package.json (Project dependencies)
+
+## 🎨 Styling Details
+
+- The Yes button increases in size and font size with every rejection.
+
+- The Yes button bounces infinitely using @keyframes bounce.
+
+- The No button changes the displayed text and image dynamically.
+
+- The background color is set to beige for a soft romantic feel. 🥰
+## 📸 Preview
+
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
+
+## 📜License
+
+This project is open-source and free to use. Feel free to modify it to make your own custom version!
+
+💖 Made with love for Valentine's Day! 😍
+
